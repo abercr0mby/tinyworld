@@ -9,11 +9,9 @@ modules:
    requires:
     - name: hdi-container
 
-
  - name: tinyjs
    type: nodejs
    path: tinyjs
-
 
  - name: tinyui
    type: html5
