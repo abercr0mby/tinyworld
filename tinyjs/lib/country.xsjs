@@ -16,13 +16,13 @@ function saveCountry(country) {
 	}
 }
 
-var country = {
+/*var country = {
 	name: $.request.parameters.get("name"),
 	partof: $.request.parameters.get("continent")
-};
+};*/
 
-/*var body = $.request.parameters.toString();
-var country = JSON.parse(body);*/
+var body = $.request.body.asString();
+var country = JSON.parse(body);
 
 // validate the inputs here!
 var output = saveCountry(country);
