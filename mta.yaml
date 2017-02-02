@@ -31,7 +31,7 @@ modules:
       properties:
          name: tinyjs_be
          url: ~{service_url}
-         forwardAuthToken: true7.
+         forwardAuthToken: true
 
 resources:
  - name: hdi-container
